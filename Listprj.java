@@ -12,6 +12,11 @@ public class Listprj {
         grocery.add("Sweets");
         System.out.println("Current items in the list is--->");
         System.out.println(grocery + "\n");
+        System.out.println("Enter item you want to add in the list");
+        String item23=object.nextLine();
+        grocery.add(item23);
+        System.out.println("Updated grocery list--->" + "\n");
+        System.out.println(grocery + "\n");
         System.out.println("Enter item that you want to remove from list");
         String a=object.nextLine();
         grocery.remove(a);
