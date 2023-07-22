@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.HashMap;
 import java.util.Map;
-public class hhashmapsprj {
+public class WordFrequencyCounter {
     public static void main(String args[])
     {
         Scanner scanner=new Scanner(System.in);
